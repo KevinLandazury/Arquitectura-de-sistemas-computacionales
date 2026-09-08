@@ -6,3 +6,4 @@
 | RNF-002 | Rendimiento | Tiempo de respuesta | Menor a 2 segundos en consultas principales |
 | RNF-003 | Disponibilidad | Tiempo de actividad del sistema | 99.9% de uptime anual |
 | RNF-004 | Mantenibilidad | Modificabilidad del código | Cobertura de pruebas unitarias superior al 80%. |
+| RNF-005 | cumplimiento | cumplimiento de tiempo acordado | Valoracion de tiempo de entrega. |
