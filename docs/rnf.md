@@ -1,18 +1,8 @@
-# Requerimientos no funcionales
+# Requerimientos No Funcionales
 
-| # | Atributo | Metrica | Umbral | Condicion de carga | Verificacion | Consecuencia si no se cumple |
-|---|---|---|---|---|---|---|
-| 1 | Rendimiento | p95 de latencia | menor a 400 ms | 200 usuarios concurrentes | Prueba de carga | El usuario abandona la reserva |
-| 2 | Disponibilidad | Uptime mensual | 99.9% | Operacion continua 24/7 | Monitoreo sintético | Pérdida de transacciones |
-| 3 | Seguridad | Cifrado en tránsito | TLS 1.3 | Peticiones HTTP | Auditoría de tráfico | Vulnerabilidad de interceptación |
-| 4 | Mantenibilidad | Modificabilidad | Mayor al 80% | Cobertura de pruebas | Cobertura de código | Regresión en producción |
-
-## Escenarios completos
-
-### Escenario 1
-- **Fuente:** Usuario final
-- **Estímulo:** Envío de formulario de reserva
-- **Artefacto:** API REST de reservas
-- **Entorno:** Operación normal con carga pico
-- **Respuesta:** Procesar la transacción y responder la confirmación
-- **Medida:** Latencia p95 menor a 400 ms
+| ID | Atributo | Definición | Umbral / Métrica |
+| :--- | :--- | :--- | :--- |
+| RNF-001 | Seguridad | Protección de datos sensibles | Uso de variables de entorno y bloqueo de credenciales |
+| RNF-002 | Rendimiento | Tiempo de respuesta | Menor a 2 segundos en consultas principales |
+| RNF-003 | Disponibilidad | Tiempo de actividad del sistema | 99.9% de uptime anual |
+| RNF-004 | Mantenibilidad | Modificabilidad del código | Cobertura de pruebas unitarias superior al 80%. |
