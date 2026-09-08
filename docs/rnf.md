@@ -5,6 +5,7 @@
 | 1 | Rendimiento | p95 de latencia | menor a 400 ms | 200 usuarios concurrentes | Prueba de carga | El usuario abandona la reserva |
 | 2 | Disponibilidad | Uptime mensual | 99.9% | Operacion continua 24/7 | Monitoreo sintético | Pérdida de transacciones |
 | 3 | Seguridad | Cifrado en tránsito | TLS 1.3 | Peticiones HTTP | Auditoría de tráfico | Vulnerabilidad de interceptación |
+| 4 | Mantenibilidad | Modificabilidad | Mayor al 80% | Cobertura de pruebas | Cobertura de código | Regresión en producción |
 
 ## Escenarios completos
 
