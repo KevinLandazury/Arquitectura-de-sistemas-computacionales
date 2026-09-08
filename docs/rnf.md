@@ -15,3 +15,4 @@
 - **Entorno:** Operación normal con carga pico
 - **Respuesta:** Procesar la transacción y responder la confirmación
 - **Medida:** Latencia p95 menor a 400 ms
+| RNF-004 | Mantenibilidad | Modificabilidad del código | Cobertura de pruebas unitarias superior al 80%. |
